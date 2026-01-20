@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Streaming HLS - Ejemplo</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/style.css">
+
+    <!-- Librería hls.js desde CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/hls.js@latest"></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Reproductor HLS - Ejemplo</h1>
+        <video id="video" controls></video>
+
+        <div class="input-box">
+            <input type="text" id="streamUrl" value="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8">
+            <button id="loadBtn">Cargar Stream</button>
+        </div>
+    </div>
+
+    <script src="assets/player.js"></script>
+</body>
+</html>
