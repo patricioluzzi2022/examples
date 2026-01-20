@@ -1,0 +1,14 @@
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\bin\Debug\net6.0\AppFiles.exe
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\bin\Debug\net6.0\AppFiles.deps.json
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\bin\Debug\net6.0\AppFiles.runtimeconfig.json
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\bin\Debug\net6.0\AppFiles.dll
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\bin\Debug\net6.0\AppFiles.pdb
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.AssemblyInfoInputs.cache
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.AssemblyInfo.cs
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.csproj.CoreCompileInputs.cache
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.dll
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\refint\AppFiles.dll
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.pdb
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\AppFiles.genruntimeconfig.cache
+C:\Users\luzzi\OneDrive\Documentos\Docs Sweet Docs\AppFiles\obj\Debug\net6.0\ref\AppFiles.dll

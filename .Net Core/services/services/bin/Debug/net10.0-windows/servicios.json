@@ -1,0 +1,4118 @@
+[
+  {
+    "ServiceInfo": {
+      "ServiceName": "AarSvc_4e259",
+      "DisplayName": "AarSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "VeroSenseSvis",
+      "DisplayName": "Acer VeroSense Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AxInstSV",
+      "DisplayName": "ActiveX Installer (AxInstSV)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ADPSvc",
+      "DisplayName": "Aggregated Data Platform Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AppReadiness",
+      "DisplayName": "App Readiness",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AppIDSvc",
+      "DisplayName": "Application Identity",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Appinfo",
+      "DisplayName": "Application Information",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ALG",
+      "DisplayName": "Application Layer Gateway Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AppMgmt",
+      "DisplayName": "Application Management",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AppXSvc",
+      "DisplayName": "AppX Deployment Service (AppXSVC)",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AssignedAccessManagerSvc",
+      "DisplayName": "AssignedAccessManager Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "tzautoupdate",
+      "DisplayName": "Auto Time Zone Updater",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BthAvctpSvc",
+      "DisplayName": "AVCTP service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BITS",
+      "DisplayName": "Background Intelligent Transfer Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BrokerInfrastructure",
+      "DisplayName": "Background Tasks Infrastructure Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BFE",
+      "DisplayName": "Base Filtering Engine",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BcastDVRUserService_4e259",
+      "DisplayName": "BcastDVRUserService_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BDESVC",
+      "DisplayName": "BitLocker Drive Encryption Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wbengine",
+      "DisplayName": "Block Level Backup Engine Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BTAGService",
+      "DisplayName": "Bluetooth Audio Gateway Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "bthserv",
+      "DisplayName": "Bluetooth Support Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "BluetoothUserService_4e259",
+      "DisplayName": "BluetoothUserService_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PeerDistSvc",
+      "DisplayName": "BranchCache",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "camsvc",
+      "DisplayName": "Capability Access Manager Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CaptureService_4e259",
+      "DisplayName": "CaptureService_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "cbdhsvc_4e259",
+      "DisplayName": "cbdhsvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CDPUserSvc_4e259",
+      "DisplayName": "CDPUserSvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "autotimesvc",
+      "DisplayName": "Cellular Time",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CertPropSvc",
+      "DisplayName": "Certificate Propagation",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ClipSVC",
+      "DisplayName": "Client License Service (ClipSVC)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CloudBackupRestoreSvc_4e259",
+      "DisplayName": "CloudBackupRestoreSvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "KeyIso",
+      "DisplayName": "CNG Key Isolation",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "EventSystem",
+      "DisplayName": "COM\u002B Event System",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "COMSysApp",
+      "DisplayName": "COM\u002B System Application",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CDPSvc",
+      "DisplayName": "Connected Devices Platform Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DiagTrack",
+      "DisplayName": "Connected User Experiences and Telemetry",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ConsentUxUserSvc_4e259",
+      "DisplayName": "ConsentUxUserSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CoreMessagingRegistrar",
+      "DisplayName": "CoreMessaging",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "VaultSvc",
+      "DisplayName": "Credential Manager",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CredentialEnrollmentManagerUserSvc_4e259",
+      "DisplayName": "CredentialEnrollmentManagerUserSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CryptSvc",
+      "DisplayName": "Cryptographic Services",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DsSvc",
+      "DisplayName": "Data Sharing Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DusmSvc",
+      "DisplayName": "Data Usage",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DcomLaunch",
+      "DisplayName": "DCOM Server Process Launcher",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "dcsvc",
+      "DisplayName": "Declared Configuration(DC) service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DoSvc",
+      "DisplayName": "Delivery Optimization",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DeviceAssociationService",
+      "DisplayName": "Device Association Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DeviceInstall",
+      "DisplayName": "Device Install Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DmEnrollmentSvc",
+      "DisplayName": "Device Management Enrollment Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "dmwappushservice",
+      "DisplayName": "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DsmSvc",
+      "DisplayName": "Device Setup Manager",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DeviceAssociationBrokerSvc_4e259",
+      "DisplayName": "DeviceAssociationBrokerSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DevicePickerUserSvc_4e259",
+      "DisplayName": "DevicePickerUserSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DevicesFlowUserSvc_4e259",
+      "DisplayName": "DevicesFlowUserSvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DevQueryBroker",
+      "DisplayName": "DevQuery Background Discovery Broker",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Dhcp",
+      "DisplayName": "DHCP Client",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "diagsvc",
+      "DisplayName": "Diagnostic Execution Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DPS",
+      "DisplayName": "Diagnostic Policy Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WdiServiceHost",
+      "DisplayName": "Diagnostic Service Host",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WdiSystemHost",
+      "DisplayName": "Diagnostic System Host",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DialogBlockingService",
+      "DisplayName": "DialogBlockingService",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DisplayEnhancementService",
+      "DisplayName": "Display Enhancement Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "DispBrokerDesktopSvc",
+      "DisplayName": "Display Policy Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TrkWks",
+      "DisplayName": "Distributed Link Tracking Client",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MSDTC",
+      "DisplayName": "Distributed Transaction Coordinator",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Dnscache",
+      "DisplayName": "DNS Client",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "com.docker.service",
+      "DisplayName": "Docker Desktop Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MapsBroker",
+      "DisplayName": "Downloaded Maps Manager",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ELANFPService",
+      "DisplayName": "ELAN Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "embeddedmode",
+      "DisplayName": "Embedded Mode",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "EFS",
+      "DisplayName": "Encrypting File System (EFS)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "EntAppSvc",
+      "DisplayName": "Enterprise App Management Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "EapHost",
+      "DisplayName": "Extensible Authentication Protocol",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "fhsvc",
+      "DisplayName": "File History Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "fdPHost",
+      "DisplayName": "Function Discovery Provider Host",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "FDResPub",
+      "DisplayName": "Function Discovery Resource Publication",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "GameInputSvc",
+      "DisplayName": "GameInput Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "lfsvc",
+      "DisplayName": "Geolocation Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "GoogleChromeElevationService",
+      "DisplayName": "Google Chrome Elevation Service (GoogleChromeElevationService)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "GoogleUpdaterInternalService144.0.7547.0",
+      "DisplayName": "Google Updater Internal Service (GoogleUpdaterInternalService144.0.7547.0)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "GoogleUpdaterService144.0.7547.0",
+      "DisplayName": "Google Updater Service (GoogleUpdaterService144.0.7547.0)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "GraphicsPerfSvc",
+      "DisplayName": "GraphicsPerfSvc",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "gpsvc",
+      "DisplayName": "Group Policy Client",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "hns",
+      "DisplayName": "Host Network Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "hpatchmon",
+      "DisplayName": "Hotpatch Monitoring Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "hidserv",
+      "DisplayName": "Human Interface Device Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "HvHost",
+      "DisplayName": "HV Host Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmickvpexchange",
+      "DisplayName": "Hyper-V Data Exchange Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmicguestinterface",
+      "DisplayName": "Hyper-V Guest Service Interface",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmicshutdown",
+      "DisplayName": "Hyper-V Guest Shutdown Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmicheartbeat",
+      "DisplayName": "Hyper-V Heartbeat Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmcompute",
+      "DisplayName": "Hyper-V Host Compute Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmicvmsession",
+      "DisplayName": "Hyper-V PowerShell Direct Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmicrdv",
+      "DisplayName": "Hyper-V Remote Desktop Virtualization Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmictimesync",
+      "DisplayName": "Hyper-V Time Synchronization Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vmicvss",
+      "DisplayName": "Hyper-V Volume Shadow Copy Requestor",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "IKEEXT",
+      "DisplayName": "IKE and AuthIP IPsec Keying Modules",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Intel Analytics Service",
+      "DisplayName": "Intel Analytics Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Intel Connectivity Network Service",
+      "DisplayName": "Intel Connectivity Network Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "IDBWM",
+      "DisplayName": "Intel Dynamic Bandwidth Management",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "IntelAudioService",
+      "DisplayName": "Intel(R) Audio Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "cplspcon",
+      "DisplayName": "Intel(R) Content Protection HDCP Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "jhi_service",
+      "DisplayName": "Intel(R) Dynamic Application Loader Host Interface Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "dptftcs",
+      "DisplayName": "Intel(R) Dynamic Tuning Technology Telemetry Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "igccservice",
+      "DisplayName": "Intel(R) Graphics Command Center Service",
+      "Description": "Service for Intel(R) Graphics Command Center",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 4600,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\igcc_dch.inf_amd64_1d352e12b1619e34\\OneApp.IGCC.WinService.exe",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ipfsvc",
+      "DisplayName": "Intel(R) Innovation Platform Framework Service",
+      "Description": "Intel(R) Innovation Platform Framework Service",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 4872,
+      "StartMode": "Auto",
+      "PathName": "\u0022C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\ipf_cpu.inf_amd64_a8fa52ad5fb65cb2\\ipf_uf.exe\u0022",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WMIRegistrationService",
+      "DisplayName": "Intel(R) Management Engine WMI Provider Registration",
+      "Description": "Intel(R) Management Engine WMI Provider Registration Service",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 5052,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\mewmiprov.inf_amd64_cad1db73e8c782a6\\WMIRegistrationService.exe",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RstMwService",
+      "DisplayName": "Intel(R) Storage Middleware Service",
+      "Description": "RPC endpoint service which allows communication between driver and Windows Store Application",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 4976,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\System32\\DriverStore\\FileRepository\\iastorvd.inf_amd64_e769ee9bce5bb697\\RstMwService.exe",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "IntelConnectService",
+      "DisplayName": "IntelConnect Service",
+      "Description": "Provides a service which automatically connects to the best known WiFi AP.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 6240,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\System32\\drivers\\Intel\\ICPS\\IntelConnectService.exe",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SharedAccess",
+      "DisplayName": "Internet Connection Sharing (ICS)",
+      "Description": "Provides network address translation, addressing, name resolution and/or intrusion prevention services for a home or small office network.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 5352,
+      "StartMode": "Manual",
+      "PathName": "C:\\WINDOWS\\System32\\svchost.exe -k netsvcs -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "InventorySvc",
+      "DisplayName": "Inventory and Compatibility Appraisal service",
+      "Description": "This service performs background system inventory, compatibility appraisal, and maintenance used by numerous system components.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 2728,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k InvSvcGroup -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "iphlpsvc",
+      "DisplayName": "IP Helper",
+      "Description": "Provides tunnel connectivity using IPv6 transition technologies (6to4, ISATAP, Port Proxy, and Teredo), and IP-HTTPS. If this service is stopped, the computer will not have the enhanced connectivity benefits that these technologies offer.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 4036,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\System32\\svchost.exe -k NetSvcs -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "IpxlatCfgSvc",
+      "DisplayName": "IP Translation Configuration Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PolicyAgent",
+      "DisplayName": "IPsec Policy Agent",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "LocalKdc",
+      "DisplayName": "Kerberos Local Key Distribution Center",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "KtmRm",
+      "DisplayName": "KtmRm for Distributed Transaction Coordinator",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "LxpSvc",
+      "DisplayName": "Language Experience Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "lltdsvc",
+      "DisplayName": "Link-Layer Topology Discovery Mapper",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wlpasvc",
+      "DisplayName": "Local Profile Assistant Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "LSM",
+      "DisplayName": "Local Session Manager",
+      "Description": "Core Windows Service that manages local user sessions. Stopping or disabling this service will result in system instability.",
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 1512,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k DcomLaunch -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "McpManagementService",
+      "DisplayName": "McpManagementService",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MessagingService_4e259",
+      "DisplayName": "MessagingService_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wlidsvc",
+      "DisplayName": "Microsoft Account Sign-in Assistant",
+      "Description": "Enables user sign-in through Microsoft account identity services. If this service is stopped, users will not be able to logon to the computer with their Microsoft account.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 18776,
+      "StartMode": "Manual",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AppVClient",
+      "DisplayName": "Microsoft App-V Client",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "cloudidsvc",
+      "DisplayName": "Microsoft Cloud Identity Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WdNisSvc",
+      "DisplayName": "Microsoft Defender Antivirus Network Inspection Service",
+      "Description": "Helps guard against intrusion attempts targeting known and newly discovered vulnerabilities in network protocols",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 11840,
+      "StartMode": "Manual",
+      "PathName": "\u0022C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25110.6-0\\NisSrv.exe\u0022",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WinDefend",
+      "DisplayName": "Microsoft Defender Antivirus Service",
+      "Description": "Helps protect users from malware and other potentially unwanted software",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 5080,
+      "StartMode": "Auto",
+      "PathName": "\u0022C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\4.18.25110.6-0\\MsMpEng.exe\u0022",
+      "NetStat": [],
+      "LastUpdate": "2025-12-19T00:49:28.5693873-03:00"
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MDCoreSvc",
+      "DisplayName": "Microsoft Defender Core Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MicrosoftEdgeElevationService",
+      "DisplayName": "Microsoft Edge Elevation Service (MicrosoftEdgeElevationService)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "edgeupdate",
+      "DisplayName": "Microsoft Edge Update Service (edgeupdate)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "edgeupdatem",
+      "DisplayName": "Microsoft Edge Update Service (edgeupdatem)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MSiSCSI",
+      "DisplayName": "Microsoft iSCSI Initiator Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MsKeyboardFilter",
+      "DisplayName": "Microsoft Keyboard Filter",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NgcSvc",
+      "DisplayName": "Microsoft Passport",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NgcCtnrSvc",
+      "DisplayName": "Microsoft Passport Container",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "swprv",
+      "DisplayName": "Microsoft Software Shadow Copy Provider",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "smphost",
+      "DisplayName": "Microsoft Storage Spaces SMP",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "InstallService",
+      "DisplayName": "Microsoft Store Install Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wuqisvc",
+      "DisplayName": "Microsoft Usage and Quality Insights",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SmsRouter",
+      "DisplayName": "Microsoft Windows SMS Router Service.",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "McmSvc",
+      "DisplayName": "Mobile Connectivity Management Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "MozillaMaintenance",
+      "DisplayName": "Mozilla Maintenance Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NaturalAuthentication",
+      "DisplayName": "Natural Authentication",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NetTcpPortSharing",
+      "DisplayName": "Net.Tcp Port Sharing Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Netlogon",
+      "DisplayName": "Netlogon",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NcdAutoSetup",
+      "DisplayName": "Network Connected Devices Auto-Setup",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NcbService",
+      "DisplayName": "Network Connection Broker",
+      "Description": "Brokers connections that allow packaged Microsoft Store apps to receive notifications from the internet.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 2168,
+      "StartMode": "Manual",
+      "PathName": "C:\\WINDOWS\\System32\\svchost.exe -k LocalSystemNetworkRestricted -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Netman",
+      "DisplayName": "Network Connections",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NcaSvc",
+      "DisplayName": "Network Connectivity Assistant",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "netprofm",
+      "DisplayName": "Network List Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NlaSvc",
+      "DisplayName": "Network Location Awareness",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NetSetupSvc",
+      "DisplayName": "Network Setup Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "nsi",
+      "DisplayName": "Network Store Interface Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "nvagent",
+      "DisplayName": "Network Virtualization Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "NPSMSvc_4e259",
+      "DisplayName": "NPSMSvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "CscService",
+      "DisplayName": "Offline Files",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "OneSyncSvc_4e259",
+      "DisplayName": "OneSyncSvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ssh-agent",
+      "DisplayName": "OpenSSH Authentication Agent",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "defragsvc",
+      "DisplayName": "Optimize drives",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "P9RdrService_4e259",
+      "DisplayName": "P9RdrService_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WpcMonSvc",
+      "DisplayName": "Parental Controls",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SEMgrSvc",
+      "DisplayName": "Payments and NFC/SE Manager",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PenService_4e259",
+      "DisplayName": "PenService_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PerfHost",
+      "DisplayName": "Performance Counter DLL Host",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "pla",
+      "DisplayName": "Performance Logs \u0026 Alerts",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PhoneSvc",
+      "DisplayName": "Phone Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PimIndexMaintenanceSvc_4e259",
+      "DisplayName": "PimIndexMaintenanceSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PlugPlay",
+      "DisplayName": "Plug and Play",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WPDBusEnum",
+      "DisplayName": "Portable Device Enumerator Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Power",
+      "DisplayName": "Power",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PrintDeviceConfigurationService",
+      "DisplayName": "Print Device Configuration Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Spooler",
+      "DisplayName": "Print Spooler",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PrintNotify",
+      "DisplayName": "Printer Extensions and Notifications",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PrintScanBrokerService",
+      "DisplayName": "PrintScanBrokerService",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PrintWorkflowUserSvc_4e259",
+      "DisplayName": "PrintWorkflowUserSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wercplsupport",
+      "DisplayName": "Problem Reports Control Panel Support",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PcaSvc",
+      "DisplayName": "Program Compatibility Assistant Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "QWAVE",
+      "DisplayName": "Quality Windows Audio Video Experience",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RmSvc",
+      "DisplayName": "Radio Management Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RtkAudioUniversalService",
+      "DisplayName": "Realtek Audio Universal Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TroubleshootingSvc",
+      "DisplayName": "Recommended Troubleshooting Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "refsdedupsvc",
+      "DisplayName": "ReFS Dedup Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RasAuto",
+      "DisplayName": "Remote Access Auto Connection Manager",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RasMan",
+      "DisplayName": "Remote Access Connection Manager",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SessionEnv",
+      "DisplayName": "Remote Desktop Configuration",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TermService",
+      "DisplayName": "Remote Desktop Services",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UmRdpService",
+      "DisplayName": "Remote Desktop Services UserMode Port Redirector",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RpcSs",
+      "DisplayName": "Remote Procedure Call (RPC)",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RpcLocator",
+      "DisplayName": "Remote Procedure Call (RPC) Locator",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RemoteRegistry",
+      "DisplayName": "Remote Registry",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RetailDemo",
+      "DisplayName": "Retail Demo Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RemoteAccess",
+      "DisplayName": "Routing and Remote Access",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "RpcEptMapper",
+      "DisplayName": "RPC Endpoint Mapper",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "seclogon",
+      "DisplayName": "Secondary Logon",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SstpSvc",
+      "DisplayName": "Secure Socket Tunneling Protocol Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SamSs",
+      "DisplayName": "Security Accounts Manager",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wscsvc",
+      "DisplayName": "Security Center",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SensorDataService",
+      "DisplayName": "Sensor Data Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SensrSvc",
+      "DisplayName": "Sensor Monitoring Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SensorService",
+      "DisplayName": "Sensor Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "LanmanServer",
+      "DisplayName": "Server",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "shpamsvc",
+      "DisplayName": "Shared PC Account Manager",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ShellHWDetection",
+      "DisplayName": "Shell Hardware Detection",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SCardSvr",
+      "DisplayName": "Smart Card",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ScDeviceEnum",
+      "DisplayName": "Smart Card Device Enumeration Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SCPolicySvc",
+      "DisplayName": "Smart Card Removal Policy",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SNMPTrap",
+      "DisplayName": "SNMP Trap",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "sppsvc",
+      "DisplayName": "Software Protection",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "svsvc",
+      "DisplayName": "Spot Verifier",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SQLWriter",
+      "DisplayName": "SQL Server VSS Writer",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SSDPSRV",
+      "DisplayName": "SSDP Discovery",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "StateRepository",
+      "DisplayName": "State Repository Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WiaRpc",
+      "DisplayName": "Still Image Acquisition Events",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "StorSvc",
+      "DisplayName": "Storage Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TieringEngineService",
+      "DisplayName": "Storage Tiers Management",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SysMain",
+      "DisplayName": "SysMain",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SENS",
+      "DisplayName": "System Event Notification Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SystemEventsBroker",
+      "DisplayName": "System Events Broker",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Schedule",
+      "DisplayName": "Task Scheduler",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "lmhosts",
+      "DisplayName": "TCP/IP NetBIOS Helper",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TapiSrv",
+      "DisplayName": "Telephony",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TextInputManagementService",
+      "DisplayName": "Text Input Management Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Themes",
+      "DisplayName": "Themes",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TimeBrokerSvc",
+      "DisplayName": "Time Broker",
+      "Description": "Coordinates execution of background work for WinRT application. If this service is stopped or disabled, then background work might not be triggered.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 2188,
+      "StartMode": "Manual",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k LocalServiceNetworkRestricted -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UdkUserSvc_4e259",
+      "DisplayName": "UdkUserSvc_4e259",
+      "Description": "Shell components service",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 9556,
+      "StartMode": "Manual",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k UdkSvcGroup",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UnistoreSvc_4e259",
+      "DisplayName": "UnistoreSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UsoSvc",
+      "DisplayName": "Update Orchestrator Service",
+      "Description": "Manages Windows Updates. If stopped, your devices will not be able to download and install the latest updates.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 15348,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "upnphost",
+      "DisplayName": "UPnP Device Host",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UevAgentService",
+      "DisplayName": "User Experience Virtualization Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UserManager",
+      "DisplayName": "User Manager",
+      "Description": "User Manager provides the runtime components required for multi-user interaction.  If this service is stopped, some applications may not operate correctly.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 2344,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k netsvcs -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ProfSvc",
+      "DisplayName": "User Profile Service",
+      "Description": "This service is responsible for loading and unloading user profiles. If this service is stopped or disabled, users will no longer be able to successfully sign in or sign out, apps might have problems getting to users\u0027 data, and components registered to receive profile event notifications won\u0027t receive them.",
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 2180,
+      "StartMode": "Auto",
+      "PathName": "C:\\WINDOWS\\system32\\svchost.exe -k UserProfileService -p",
+      "NetStat": [],
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "UserDataSvc_4e259",
+      "DisplayName": "UserDataSvc_4e259",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "vds",
+      "DisplayName": "Virtual Disk",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "VSInstallerElevationService",
+      "DisplayName": "Visual Studio Installer Elevation Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "VSStandardCollectorService150",
+      "DisplayName": "Visual Studio Standard Collector Service 150",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "VSS",
+      "DisplayName": "Volume Shadow Copy",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WaaSMedicSvc",
+      "DisplayName": "WaaSMedicSvc",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WalletService",
+      "DisplayName": "WalletService",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WarpJITSvc",
+      "DisplayName": "Warp JIT Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TokenBroker",
+      "DisplayName": "Web Account Manager",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "webthreatdefsvc",
+      "DisplayName": "Web Threat Defense Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WebClient",
+      "DisplayName": "WebClient",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "webthreatdefusersvc_4e259",
+      "DisplayName": "webthreatdefusersvc_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WFDSConMgrSvc",
+      "DisplayName": "Wi-Fi Direct Services Connection Manager Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Audiosrv",
+      "DisplayName": "Windows Audio",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "AudioEndpointBuilder",
+      "DisplayName": "Windows Audio Endpoint Builder",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SDRSVC",
+      "DisplayName": "Windows Backup",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WbioSrvc",
+      "DisplayName": "Windows Biometric Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "FrameServer",
+      "DisplayName": "Windows Camera Frame Server",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "FrameServerMonitor",
+      "DisplayName": "Windows Camera Frame Server Monitor",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wcncsvc",
+      "DisplayName": "Windows Connect Now - Config Registrar",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Wcmsvc",
+      "DisplayName": "Windows Connection Manager",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Sense",
+      "DisplayName": "Windows Defender Advanced Threat Protection Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "mpssvc",
+      "DisplayName": "Windows Defender Firewall",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WEPHOSTSVC",
+      "DisplayName": "Windows Encryption Provider Host Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WerSvc",
+      "DisplayName": "Windows Error Reporting Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Wecsvc",
+      "DisplayName": "Windows Event Collector",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "EventLog",
+      "DisplayName": "Windows Event Log",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "FontCache",
+      "DisplayName": "Windows Font Cache Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "whesvc",
+      "DisplayName": "Windows Health and Optimized Experiences",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "StiSvc",
+      "DisplayName": "Windows Image Acquisition (WIA)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wisvc",
+      "DisplayName": "Windows Insider Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "msiserver",
+      "DisplayName": "Windows Installer",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "LicenseManager",
+      "DisplayName": "Windows License Manager Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "Winmgmt",
+      "DisplayName": "Windows Management Instrumentation",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WManSvc",
+      "DisplayName": "Windows Management Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WMPNetworkSvc",
+      "DisplayName": "Windows Media Player Network Sharing Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "midisrv",
+      "DisplayName": "Windows MIDI Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "icssvc",
+      "DisplayName": "Windows Mobile Hotspot Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "TrustedInstaller",
+      "DisplayName": "Windows Modules Installer",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "perceptionsimulation",
+      "DisplayName": "Windows Perception Simulation Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WpnService",
+      "DisplayName": "Windows Push Notifications System Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "PushToInstall",
+      "DisplayName": "Windows PushToInstall Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WinRM",
+      "DisplayName": "Windows Remote Management (WS-Management)",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WSearch",
+      "DisplayName": "Windows Search",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "SecurityHealthService",
+      "DisplayName": "Windows Security Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "W32Time",
+      "DisplayName": "Windows Time",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wuauserv",
+      "DisplayName": "Windows Update",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ApxSvc",
+      "DisplayName": "Windows Virtual Audio Device Proxy Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WinHttpAutoProxySvc",
+      "DisplayName": "WinHTTP Web Proxy Auto-Discovery Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "dot3svc",
+      "DisplayName": "Wired AutoConfig",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WlanSvc",
+      "DisplayName": "WLAN AutoConfig",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "wmiApSrv",
+      "DisplayName": "WMI Performance Adapter",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "workfolderssvc",
+      "DisplayName": "Work Folders",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "LanmanWorkstation",
+      "DisplayName": "Workstation",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WpnUserService_4e259",
+      "DisplayName": "WpnUserService_4e259",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WSAIFabricSvc",
+      "DisplayName": "WSAIFabricSvc",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WSLService",
+      "DisplayName": "WSL Service",
+      "Description": null,
+      "Status": 4,
+      "CanStop": true,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "WwanSvc",
+      "DisplayName": "WWAN AutoConfig",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "XboxGipSvc",
+      "DisplayName": "Xbox Accessory Management Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "XblAuthManager",
+      "DisplayName": "Xbox Live Auth Manager",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "XblGameSave",
+      "DisplayName": "Xbox Live Game Save",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "XboxNetApiSvc",
+      "DisplayName": "Xbox Live Networking Service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  },
+  {
+    "ServiceInfo": {
+      "ServiceName": "ZTHELPER",
+      "DisplayName": "ZTDNS Helper service",
+      "Description": null,
+      "Status": 1,
+      "CanStop": false,
+      "ProcessId": 0,
+      "StartMode": null,
+      "PathName": null,
+      "NetStat": null,
+      "LastUpdate": null
+    }
+  }
+]

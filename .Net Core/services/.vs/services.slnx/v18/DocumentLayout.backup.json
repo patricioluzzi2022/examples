@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|c:\\users\\luzzi\\onedrive\\desktop\\develop\\services\\services\\services\\classes\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|solutionrelative:services\\classes\\windowservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|c:\\users\\luzzi\\onedrive\\desktop\\develop\\services\\services\\services\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|solutionrelative:services\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|c:\\users\\luzzi\\onedrive\\desktop\\develop\\services\\services\\services\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|solutionrelative:services\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|c:\\users\\luzzi\\onedrive\\desktop\\develop\\services\\services\\services\\classes\\windowserviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{97207750-6972-232F-BB7B-6106666106AF}|services\\services.csproj|solutionrelative:services\\classes\\windowserviceinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "services\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\MainWindow.xaml",
+              "RelativeToolTip": "services\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-21T03:21:21.18Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WindowService.cs",
+              "DocumentMoniker": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\Classes\\WindowService.cs",
+              "RelativeDocumentMoniker": "services\\Classes\\WindowService.cs",
+              "ToolTip": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\Classes\\WindowService.cs",
+              "RelativeToolTip": "services\\Classes\\WindowService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-23T01:00:53.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WindowServiceInfo.cs",
+              "DocumentMoniker": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\Classes\\WindowServiceInfo.cs",
+              "RelativeDocumentMoniker": "services\\Classes\\WindowServiceInfo.cs",
+              "ToolTip": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\Classes\\WindowServiceInfo.cs",
+              "RelativeToolTip": "services\\Classes\\WindowServiceInfo.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAuwGAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T03:30:36.26Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "services\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\luzzi\\OneDrive\\Desktop\\Develop\\services\\services\\services\\MainWindow.xaml.cs",
+              "RelativeToolTip": "services\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAKIAAAAAAAAAAIA1wLAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-21T03:26:44.942Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

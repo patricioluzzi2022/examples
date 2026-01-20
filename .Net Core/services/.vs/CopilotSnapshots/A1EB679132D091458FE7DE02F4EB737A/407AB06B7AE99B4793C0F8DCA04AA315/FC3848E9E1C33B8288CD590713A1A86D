@@ -1,0 +1,22 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ServiceProcess;
+using System.Text;
+
+namespace services.Classes
+{
+    public class WindowServiceInfo
+    {
+        public string ServiceName;
+        public string DisplayName;
+        public string Description;
+        public ServiceControllerStatus Status;
+        public bool CanStop;
+        public int ProcessId;
+        public string StartMode;
+        public string PathName;
+        public List<string> NetStat;
+
+        
+    }
+}

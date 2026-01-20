@@ -1,0 +1,222 @@
+﻿<Window x:Class="services.MainWindow" x:Name="mainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:services"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowState="Maximized" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="20"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <ToolBarTray Grid.Column="0" Grid.Row="0">
+            <ToolBar>
+                <Button Content="Start"
+                    Command="{Binding StartCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Stop"
+                    Command="{Binding StopCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Details"
+                    Command="{Binding ShowDetailsCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Json File"
+                    Command="{Binding CreateJsonFileCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Stop Worker"
+                    Command="{Binding StopWorkerCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Scanner"
+                    Command="{Binding ScannerCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+
+            </ToolBar>
+        </ToolBarTray>
+
+        <Grid x:Name="gMain" Grid.Column="0" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"></ColumnDefinition>
+                <ColumnDefinition Width="0"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+
+            <ListView x:Name="lvServicios" Grid.Column="0" Grid.Row="0" ItemsSource="{Binding Servicios}" SelectedItem="{Binding SelectedService}" GridViewColumnHeader.Click="SortByStatus">
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn Header="Service Name" Width="110">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=ServiceInfo.ServiceName}"
+                                       TextTrimming="CharacterEllipsis"
+                                       ToolTip="{Binding Path=ServiceInfo.ServiceName}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                        <GridViewColumn Header="Name" Width="230">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=ServiceInfo.DisplayName}"
+                                       TextTrimming="CharacterEllipsis"
+                                       ToolTip="{Binding Path=ServiceInfo.DisplayName}" />
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+
+
+                        <GridViewColumn Header="Status" Width="84">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=ServiceInfo.Status}">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Foreground" Value="Black"/>
+
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding ServiceInfo.Status}" Value="Running">
+                                                        <Setter Property="Foreground" Value="Green"/>
+                                                    </DataTrigger>
+
+                                                    <DataTrigger Binding="{Binding ServiceInfo.Status}" Value="Stopped">
+                                                        <Setter Property="Foreground" Value="Red"/>
+                                                    </DataTrigger>
+
+                                                    <DataTrigger Binding="{Binding ServiceInfo.Status}" Value="Paused">
+                                                        <Setter Property="Foreground" Value="Orange"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                        <GridViewColumn Header="PID"
+                            DisplayMemberBinding="{Binding Path=ServiceInfo.ProcessId}"
+                            Width="50"/>
+
+                        <GridViewColumn Header="Start Mode"
+                            DisplayMemberBinding="{Binding Path=ServiceInfo.StartMode}"
+                            Width="84"/>
+
+                        <GridViewColumn Header="NetActivity" Width="71">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Path=ServiceInfo.NetStat.Count}">
+                                        <TextBlock.Style>
+                                            <Style TargetType="TextBlock">
+                                                <Setter Property="Foreground" Value="Green"/>
+
+                                                <Style.Triggers>
+                                                    <DataTrigger Binding="{Binding ServiceInfo.NetStat.Count}" Value="0">
+                                                        <Setter Property="Foreground" Value="Black"/>
+                                                    </DataTrigger>
+
+                                                </Style.Triggers>
+                                            </Style>
+                                        </TextBlock.Style>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                        <GridViewColumn Header="Last Update"
+                            DisplayMemberBinding="{Binding Path=ServiceInfo.LastUpdate}"
+                            Width="142"/>
+
+
+                    </GridView>
+                </ListView.View>
+            </ListView>
+
+            <StackPanel x:Name="gInformation" Grid.Column="1" Grid.Row="0" DataContext="{Binding SelectedService}">
+                <Label>Informacion</Label>
+                <Button Height="32" Width="100" HorizontalAlignment="Right" Margin="0 0 10 0" Click="InformationClose" >Close</Button>
+
+                <StackPanel Orientation="Horizontal">
+                    <Label>PID:</Label>
+                    <Label Content="{Binding Path=ServiceInfo.ProcessId}"></Label>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Label>Description:</Label>
+                    <Label Width="400">
+                        <Label.Content>
+                            <TextBlock Text="{Binding ServiceInfo.Description}" TextWrapping="Wrap"/>
+                        </Label.Content>
+                    </Label>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Label>Start Mode:</Label>
+                    <Label Content="{Binding Path=ServiceInfo.StartMode}"></Label>
+                </StackPanel>
+                
+                <StackPanel Orientation="Horizontal">
+                    <Label>Path Name:</Label>
+                    <Label Content="{Binding Path=ServiceInfo.PathName}"></Label>
+                </StackPanel>
+
+                <ListView ItemsSource="{Binding Path=ServiceInfo.NetStat}" SelectedItem="{Binding Path=ServiceInfo.SelectedNetStatEntry}">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Protocol"
+                                DisplayMemberBinding="{Binding Protocol}" Width="70"/>
+
+                            <GridViewColumn Header="LocalAddress"
+                                DisplayMemberBinding="{Binding LocalAddress}" Width="100"/>
+
+                            <GridViewColumn Header="ForeignAddress"
+                                DisplayMemberBinding="{Binding ForeignAddress}" Width="100"/>
+
+                            <GridViewColumn Header="State"
+                                DisplayMemberBinding="{Binding State}" Width="85"/>
+
+                            <GridViewColumn Header="PID"
+                                DisplayMemberBinding="{Binding ProcessId}" Width="42"/>
+
+                            <GridViewColumn Header="CPU"
+                                DisplayMemberBinding="{Binding CPU}" Width="39"/>
+
+                            <GridViewColumn Header="Memory"
+                                DisplayMemberBinding="{Binding Memory}" Width="36"/>
+
+                            <GridViewColumn Header="PS"
+                                DisplayMemberBinding="{Binding Note}" Width="50"/>
+
+
+
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+                <StackPanel Orientation="Horizontal">
+                    <Label>Certificate Subject:</Label>
+                    <Label Content="{Binding Path=ServiceInfo.SelectedNetStatEntry.CertificateSubject}"></Label>
+                </StackPanel>
+
+
+
+
+            </StackPanel>
+            
+        </Grid>
+
+
+        
+
+
+    </Grid>
+</Window>

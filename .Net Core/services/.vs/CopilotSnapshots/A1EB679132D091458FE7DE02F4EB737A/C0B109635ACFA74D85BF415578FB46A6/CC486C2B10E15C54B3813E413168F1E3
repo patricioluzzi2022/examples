@@ -1,0 +1,54 @@
+﻿<Window x:Class="services.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:services"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="auto" Width="auto">
+    <StackPanel Orientation="Vertical" Height="500" Width="700">
+        <ToolBarTray Width="700">
+            <ToolBar>
+                <Button Content="Start"
+                    Command="{Binding StartCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Stop"
+                    Command="{Binding StopCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+                <Button Content="Details"
+                    Command="{Binding ShowDetailsCommand}"
+                    CommandParameter="{Binding SelectedItem, ElementName=lvServicios}" />
+            </ToolBar>
+        </ToolBarTray>
+        <ListView x:Name="lvServicios" Height="auto" Width="auto" >
+            <ListView.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ListView.RenderTransform>
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Name"
+                            DisplayMemberBinding="{Binding Path=ServiceInfo.ServiceName}"
+                            Width="110"/>
+
+                    <GridViewColumn Header="DisplayName"
+                            DisplayMemberBinding="{Binding Path=ServiceInfo.DisplayName}"
+                            Width="200"/>
+
+                    <GridViewColumn Header="Status"
+                            DisplayMemberBinding="{Binding Path=ServiceInfo.Status}"
+                            Width="100"/>
+
+                    <GridViewColumn Header="Description"
+                        DisplayMemberBinding="{Binding Path=ServiceInfo.Description}"
+                        Width="200"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </StackPanel>
+</Window>
