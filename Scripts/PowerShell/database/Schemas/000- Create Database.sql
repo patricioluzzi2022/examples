@@ -1,0 +1,9 @@
+--USE master;
+--go
+--
+--IF EXISTS (SELECT name FROM sys.databases WHERE name = N'data_analysis_book')
+--BEGIN
+--    DROP DATABASE [data_analysis_book];
+--END
+--
+--CREATE DATABASE [data_analysis_book];
