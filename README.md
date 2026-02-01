@@ -31,6 +31,7 @@
 
 ## Web
     - Charts: Ejemplo de implementación de la librería chartjs.
+    - data-exploration: Implementacion de la libreria Charts para graficar flujo de datos.
     - hls-player: Reproductor web de streming.
 
 
