@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Chart.js Example</title>
+    
+    <link rel="stylesheet" href="assets/css/main-style.css">
+
+</head>
+<body>
+
+    <div class="wizard-soperpower-9">
+        <input type="text" id="data-socket-url" value="http://localhost:5000" />
+        <button id="connect-socket-btn">Connect</button>
+        <button id="disconnect-socket-btn">Disconnect</button>
+        <button id="refresh-socket-btn">Refresh</button>
+        <button id="example-chart-btn">Example Chart</button>
+    </div>
+
+    <canvas id="myChart"  width="800" height="400"></canvas>
+
+    <div class="chart-main-info">
+        <div class="chart-info" id="max-freq"></div>
+        <div class="chart-info" id="min-freq"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
+
+    <script type="module" src="assets/js/main-module.js"></script>
+
+</body>
+</html>
