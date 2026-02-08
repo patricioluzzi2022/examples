@@ -5,12 +5,34 @@ body {
 }
 
 .chart-main-info {
-    display: flex;
-    justify-content: space-around;
     margin-top: 20px;
-    color: #fff;
+    color: rgb(133, 133, 133);
 }
 
 .chart-info{
-    
+    margin: 10px 37px 10px 37px;
+}
+
+.chart-info-freq-6{
+    color: rgb(200, 124, 10); /* rgb(200-255, 124-150, 8-10) - en funcion de la magnitud */
+}
+
+.chart-info-freq-5{
+    color: rgb(187, 200, 10); /*  */
+}
+
+.chart-info-freq-4{
+    color: rgb(10, 200, 122); /*  */
+}
+
+.chart-info-freq-3{
+    color: rgb(67, 180, 243); /*  */
+}
+
+.chart-info-freq-2{
+    color: rgb(192, 67, 165); /*  */
+}
+
+.chart-info-freq-1{
+    color: rgb(255, 255, 255); /*  */
 }

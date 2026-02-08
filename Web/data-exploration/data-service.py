@@ -10,7 +10,6 @@ from scipy.fft import fft, fftfreq
 sio = socketio.Server(cors_allowed_origins='*')
 app = socketio.WSGIApp(sio)
 
-# Definicion del layout inicial
 layout_frequency_range = {
     "title": "frequency_threshold",
     "type": "line",
@@ -26,7 +25,7 @@ layout_frequency_range = {
         {
             "name": "y",
             "title": "frequency (Hz)",
-            "range": [], # A calcular
+            "range": [],
             "lcolor": "rgb(200, 200, 200)",
             "mirror": False
         },
@@ -34,36 +33,71 @@ layout_frequency_range = {
     "datasets": [
         {
             "label": "Microphone Frequencies",
-            "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 5000],
+            "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
             "borderColor": "rgb(217, 141, 54)",
             "backgroundColor": "rgba(75, 192, 192, 0.2)",
             "fill": True,
             "tension": 0.883
         }
     ],
-    "range": [0, 500], # approximate range 
+    "range": [0, 340], # approximate range 
     "plot_bg_color": "white",
-    "paper_bg_color": "white"
+    "paper_bg_color": "white",
+    "analisis": []
+}
+
+layout_magnitudes_per_freq = {
+    "title": "layout_magnitudes_per_freq",
+    "type": "line",
+    "intersect": False,
+    "axis": [
+        {
+            "name": "x",
+            "title": "measurements (#)",
+            "range": ['11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1', '0'],
+            "lcolor": "rgb(200, 200, 200)",
+            "mirror": False
+        },
+        {
+            "name": "y",
+            "title": "maginitude (db)",
+            "range": [],
+            "lcolor": "rgb(200, 200, 200)",
+            "mirror": False
+        },
+    ],
+    "datasets": [
+        {
+            "label": "Microphone Frequencies",
+            "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+            "borderColor": "rgb(200, 200, 200)",
+            "backgroundColor": "rgba(75, 192, 192, 0.2)",
+            "fill": True,
+            "tension": 0.883
+        }
+    ],
+    "range": [0, 130], # verificar 
+    "plot_bg_color": "white",
+    "paper_bg_color": "white",
+    "analisis": []
 }
 
 @sio.event
 def connect(sid, environ):
-    print('Cliente conectado:', sid)
-    print('Enviando layout inicial...')
-    print(layout_frequency_range)
-    sio.emit('connected-event', {'message': '¡Conexión establecida!', 'layout': layout_frequency_range }, to=sid)
+    microphone = microphone_status()
+    sio.emit('connected-event', {'message': '¡Conexión establecida!', 'microphone': str(microphone)}, to=sid)
 
-@sio.on('get-latest-layout-event')
-def handle_new_layout_event(sid, data):
-    analysis = analyze_microphone_frequencies(1, 48000, False)
-    new_data = normalize_frequencie_data(analysis)
+@sio.on('layout-event')
+def get_layout(sid, id):
+    if(id=="GChart"):
+        sio.emit('layout-callback-event', {'layout': layout_frequency_range }, to=sid)
+    if(id=="MGChart"):
+        sio.emit('layout-callback-event', {'layout': layout_magnitudes_per_freq }, to=sid)
 
-    response = {
-        "layout": data['layout'],
-        "data": new_data
-    }
-
-    sio.emit('new-layout-callback-event', {'message': '¡Datos actualizados!', 'response': response }, to=sid)    
+@sio.on('frequency-analisis-event')
+def handle_get_frequency_analize_event(sid, data):
+    analysis = analyze_microphone_frequencies(2, 48000, False)
+    sio.emit('frequency-analisis-callback-event', {'analysis': analysis}, to=sid)    
     
 def capture_audio_chunk(duration=1.0, sample_rate=44100):
     """
@@ -167,53 +201,7 @@ def analyze_microphone_frequencies(duration=2.0, sample_rate=440, visualize=True
     # Paso 3: Analizar
     analysis = analyze_frequencies(frequencies, magnitudes, top_n=6)
     
-    # Mostrar resultados
-    #print(f"Frecuencia Dominante: {analysis['dominant_frequency']:.2f} Hz (Magnitud: {analysis['dominant_magnitude']:.2f})")
-    #print(f"\nTop Frecuencias:")
-    #for i, (freq, mag) in enumerate(analysis['top_frequencies'], 1):
-    #    print(f"  {i}. {freq:.2f} Hz - Magnitud: {mag:.4f}")
-    
-    #print(f"\nEstadísticas:")
-    #print(f"  Magnitud Máxima: {analysis['max_magnitude']:.2f}")
-    #print(f"  Magnitud Mínima: {analysis['min_magnitude']:.2f}")
-    #print(f"  Magnitud Promedio: {analysis['mean_magnitude']:.2f}")
-    
-    # Paso 4: Visualizar
-    #if visualize:
-        #plot_frequency_spectrum(frequencies, magnitudes, audio_data, sr)
-    
     return analysis
-
-def get_top_frequencies(audio_data, sample_rate, num_frequencies=2, threshold=20):
-    """
-    Extrae las frecuencias dominantes del audio.
-    
-    Args:
-        audio_data: Array de datos de audio
-        sample_rate: Frecuencia de muestreo
-        num_frequencies: Número de frecuencias a retornar (default: 2)
-        threshold: Umbral mínimo de magnitud (default: 20)
-    
-    Returns:
-        list: Array con máximo N diccionarios {'frequency': Hz, 'magnitude': valor}
-    """
-    # Calcular FFT
-    frequencies, magnitudes = compute_fft(audio_data, sample_rate)
-    
-    # Crear array de objetos con frecuencia y magnitud
-    freq_data = [
-        {'frequency': int(freq), 'magnitude': mag}
-        for freq, mag in zip(frequencies, magnitudes)
-        if mag > threshold
-    ]
-    
-    if not freq_data:
-        return []
-    
-    # Ordenar por magnitud descendente y tomar máximo N
-    top_freqs = sorted(freq_data, key=lambda x: x['magnitude'], reverse=True)[:num_frequencies]
-    
-    return top_freqs
 
 def analyze_frequency_sequence(audio_data, sample_rate, num_frequencies=2, threshold=20):
     """
@@ -252,20 +240,24 @@ def analyze_frequency_sequence(audio_data, sample_rate, num_frequencies=2, thres
     # Retornar solo las frecuencias
     return [p['frequency'] for p in top_peaks]
 
-def normalize_frequencie_data(analysis):
-    """
-    Normaliza los datos de análisis de frecuencias.
-    
-    Args:
-        analysis: Diccionario con resultados del análisis
-    
-    Returns:
-        dict: Diccionario con datos normalizados
-    """
-    frequencies, magnitudes = map(list, zip(*analysis['top_frequencies']))
-    frequencies_array_normalized = [float(x) for x in frequencies]
+def microphone_status():
+    try:
+        duration = 2
+        fs = 48000
 
-    return frequencies_array_normalized
+        audio = sd.rec(
+            int(duration * fs),
+            samplerate=fs,
+            channels=1,
+            dtype='float32'
+        )
+        sd.wait()
+
+        volumen = np.linalg.norm(audio)
+        return volumen > 0.01
+    except Exception as e:
+        print(e)
+        return False
 
 if __name__ == '__main__':
     # Ejecutamos el servidor en el puerto 5000
