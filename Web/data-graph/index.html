@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>data-graph</title>
+    
+    <link rel="stylesheet" href="assets/css/main-style.css">
+
+</head>
+<body>
+    <div class="wizard-soperpower-9">
+        Idle: <input class="form-control-idle-time" type="text" id="data-socket-idle-time" value="" placeholder="1500" /> [ms] |
+        Socket urli: <input class="form-control-url" type="text" id="data-socket-url" value="http://localhost:36388" />
+        <button id="connect-socket-btn">Connect</button>
+        <button id="disconnect-socket-btn">Disconnect</button>
+    </div>
+
+    <canvas id="chart-1"  width="800" height="400"></canvas>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
+
+    <!--<script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script>-->
+
+    <!--<script src="assets/js/socketio.js"></script>-->
+
+    <!--<script src="assets/js/chart.js"></script>-->
+
+    <script type="module" src="assets/js/main-module.js"></script>
+
+</body>
+</html>
