@@ -7,5 +7,5 @@ def get_dataset(x):
     if(factorial >= 40320):
         increment = -1
 
-    return [ {"x": x, "factorial": factorial, "increment": increment } ]
+    return [ {"x": x, "factorial": factorial, "increment": increment, "script": { "id": 1, "file": "assets/scripts/01-factorial.py" } } ]
 

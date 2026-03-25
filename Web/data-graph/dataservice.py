@@ -3,11 +3,11 @@ import eventlet
 import importlib
 import random
 
-# new Socket.IO server
+# 
 sio = socketio.Server(cors_allowed_origins='*')
 app = socketio.WSGIApp(sio)
 
-# graph layout definitions
+# layouts
 layout1 = {
     "title": "Lineal Chart",
     "type": "line",
@@ -46,25 +46,21 @@ layout1 = {
 }
 
 layout2 = {
-    "title": "Lineal Chart",
-    "type": "line",
-    "intersect": False,
-    "axis": [
-        {
-            "name": "x",
-            "title": "x [ ]",
-            "range": ['11', '10', '9', '8', '7', '6', '5', '4', '3', '2', '1', '0'],
-            "lcolor": "rgb(200, 200, 200)",
-            "mirror": False
+    "title": "Radar Chart",
+    "type": "radar",
+    "options": {
+        "plugins": {
+            "filler": {
+                "propagate": False
+            },
+            "samples-filler-analyser": {
+                "target": "chart-analyser"
+            }
         },
-        {
-            "name": "y",
-            "title": "y [ ]",
-            "range": [],
-            "lcolor": "rgb(200, 200, 200)",
-            "mirror": False
-        },
-    ],
+        "interaction": {
+            "intersect": False
+        }
+    },
     "datasets": [
         {
             "label": "y",
@@ -78,29 +74,29 @@ layout2 = {
     "range": [0, 320],
     "plot_bg_color": "white",
     "paper_bg_color": "white",
-    "analisis": [],
     "ms": 500
 }
 
-# endpoints definitions
-@sio.event
-def connect(sid, environ):
-    sio.emit('connected-event', {'status': 200 ,'message': 'Connection stablished!'}, to=sid)
+# events
+@sio.on('connection_request_event')
+def connect(eid, environment):
+    print('connection_request_event')
+    sio.emit('connection_response_event', {'status': 200 ,'message': 'Connection stablished!'}, to=eid)
 
-@sio.on('layout-event')
-def get_layout(sid, type):
-    match type:
+@sio.on('request_layout_event')
+def get_layout(eid, layout):
+    match layout:
         case 1:
-            sio.emit('layout-callback-event', {'status': 200, 'layout': layout1 }, to=sid)
+            sio.emit('response_layout_event', {'status': 200, 'layout': layout1 }, to=eid)
         case 2:
-            sio.emit('layout-callback-event', {'status': 200, 'layout': layout2 }, to=sid)
+            sio.emit('response_layout_event', {'status': 200, 'layout': layout1 }, to=eid)
 
-@sio.on('datasets-event')
-def get_data(sid, params):
+@sio.on('request_data_event')
+def get_data(eid, params):
     dataset = get_dataset(params)
-    sio.emit('dataset_callback_event', {'status': 200, 'dataset': dataset}, to=sid)    
+    sio.emit('response_data_event', {'status': 200, 'dataset': dataset}, to=eid)
 
-# functions
+# funtions
 def get_dataset(params):
     """
     This fuction is responsible for returning information based on the established parameters.

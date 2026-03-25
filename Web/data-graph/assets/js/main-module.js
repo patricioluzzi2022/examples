@@ -1,44 +1,13 @@
-import { LinealChart } from './lineal-chart.js';
+import { Graphing } from './graphing.js';
 
-let charts = [];
+window.onload = function() {
+    let graphing = new Graphing(1);
+    graphing.init('lineal');
 
-window.onload = () => {
-    console.log('Main module loaded.');
+    graphing.addEventListener('new-graph-event', (event) => {
+        let layout = this.prompt('Script #:');
 
-    const connectBtn = document.getElementById('connect-socket-btn');
-    const disconnectBtn = document.getElementById('disconnect-socket-btn');
-
-    connectBtn.onclick = () => {
-        connect();
-    }
-
-    disconnectBtn.onclick = () => {
-        disconnect();
-    }
-
-}
-
-async function connect() {
-    const ioSource = document.getElementById('data-socket-url');
-    const socketUrl = ioSource.value;
-
-    let chart01 = new LinealChart(1, socketUrl, 'datasets-event', 'dataset_callback_event');
-
-    chart01.createFromSocket();
-    chart01.draft();
-
-    charts.push(chart01);
-
-    chart01.addEventListener('dataset_callback_event', (event) => {
-        let chart = charts.find(c => c.chartId == `chart-${event.detail.note.id}`);
-        chart.update(event.detail.dataset);
+        let graphing = new Graphing(layout);
+        graphing.init('lineal');
     });
-      
-}
-
-async function disconnect() {
-    charts.forEach(chart => {
-        chart.disconnect();
-    });
-    charts = [];
-}
+};

@@ -11,24 +11,46 @@
 
 </head>
 <body>
-    <div class="wizard-soperpower-9">
-        Idle: <input class="form-control-idle-time" type="text" id="data-socket-idle-time" value="" placeholder="1500" /> [ms] |
-        Socket urli: <input class="form-control-url" type="text" id="data-socket-url" value="http://localhost:36388" />
-        <button id="connect-socket-btn">Connect</button>
-        <button id="disconnect-socket-btn">Disconnect</button>
+    <div class="wizard-soperpower-9" data-chart="1">
+        <div class="graph-row-1">
+            <div class="graph-col-0">
+                Socket url: <input class="form-control-url" type="text" id="data-socket-url" value="http://localhost:36388" />
+            </div>
+
+            <div class="graph-col-1">
+                
+            </div>
+
+            <div class="graph-col-2">
+                Idle: <input class="form-control-idle-time" type="text" id="data-socket-idle-time" value="" placeholder="1500" /> [ms]
+            </div>
+
+            <div class="graph-col-3">
+                <button id="connect-socket-control">Connect</button>
+            </div>
+
+            <div class="graph-col-4">
+                <button id="disconnect-socket-control" class="control_disabled">Pause</button>
+            </div>
+
+            <div class="graph-col-5">
+                <button id="clear-graph-control" class="control_disabled">Clear</button>
+            </div>
+
+            <div class="graph-col-6">
+                <button id="add-new-graph-control">Add new Graph</button>
+            </div>
+            
+        </div>
+
+        <div class="graph-row-2">
+            <canvas id="chart-1" width="720" height="440" data-chart="1"></canvas>
+        </div>
     </div>
-
-    <canvas id="chart-1"  width="800" height="400"></canvas>
-
+    
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
     <script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
-
-    <!--<script src="https://unpkg.com/rxjs@^7/dist/bundles/rxjs.umd.min.js"></script>-->
-
-    <!--<script src="assets/js/socketio.js"></script>-->
-
-    <!--<script src="assets/js/chart.js"></script>-->
 
     <script type="module" src="assets/js/main-module.js"></script>
 
