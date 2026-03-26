@@ -1,4 +1,5 @@
 import { LinealChart } from './charts/lineal-chart.js';
+import { getGraphTemplate } from './environment-module.js';
 
 export class Graphing extends EventTarget {
     constructor(id = null) {
@@ -24,13 +25,12 @@ export class Graphing extends EventTarget {
         if(this.id == 1){
             this.canvas = document.querySelector(`[data-chart="${this.id}"]`);
         }else{
-            //let reference = document.querySelector(`[data-chart="1"]`);
+            let template = getGraphTemplate(this.id);
+            const newGraph = document.createElement('div');
+            newGraph.innerHTML = template;
 
-            //const newCanvas = document.createElement('div');
-            //newCanvas.classList.add('wizard-soperpower-9');
-            //newCanvas.attributes.add('data-chart', this.id);
-            
-            
+            document.body.appendChild(newGraph);
+
         }
     }
 

@@ -97,7 +97,7 @@ def get_data(eid, params):
     sio.emit('response_data_event', {'status': 200, 'dataset': dataset}, to=eid)
 
 # funtions
-def get_dataset(params):
+def get_dataset(data):
     """
     This fuction is responsible for returning information based on the established parameters.
     
@@ -110,7 +110,7 @@ def get_dataset(params):
     
     spec = None
 
-    match params["layout"]:
+    match data["layout"]:
         case 1:
             spec = importlib.util.spec_from_file_location("modulo", "./assets/scripts/01-factorial.py")
         case 2:
@@ -123,7 +123,7 @@ def get_dataset(params):
     modulo = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(modulo)
 
-    return modulo.get_dataset(params["params"]["x"])
+    return modulo.get_dataset(data["params"])
 
 if __name__ == '__main__':
     # Starting a new server on port 36388

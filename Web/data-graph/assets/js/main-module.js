@@ -7,7 +7,7 @@ window.onload = function() {
     graphing.addEventListener('new-graph-event', (event) => {
         let layout = this.prompt('Script #:');
 
-        let graphing = new Graphing(layout);
+        let graphing = new Graphing(parseInt(layout));
         graphing.init('lineal');
     });
 };

@@ -41,7 +41,7 @@ export class LinealChart extends EventTarget {
                 this.ms = result.layout.ms;
             }
 
-            this.socket.emit(environment.request_data_event, { 'layout': this.id, 'params': { "y": "f(x)", "x": 0 } });
+            this.socket.emit(environment.request_data_event, this.createRequestMessage() );
         });
 
         this.socket.on(environment.response_data_event, async (result) => {
@@ -51,9 +51,9 @@ export class LinealChart extends EventTarget {
 
             this.chart = await this.drawChart();
 
-            let next = await this.updateChart(result.dataset);
+            let response = await this.updateChart(result.dataset);
 
-            this.socket.emit(environment.request_data_event, { 'layout': this.id, 'params': { "y": "f(x)", "x": next } });
+            this.socket.emit(environment.request_data_event, this.createRequestMessage(response["next"], response["sign"]) );
         });
     }
 
@@ -123,25 +123,42 @@ export class LinealChart extends EventTarget {
     async updateChart(dataset) {
         let idle = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
-        let data = dataset.map((f, key) => f[Object.keys(f)[1]]);
+        let data = dataset.map(f => f['result']);
 
-        for (let p of data) { // fk1_data.length in [1,12]
+        for (let p of data) { // fk1_data.length in [1, 12]
             this.chart.config._config.data.datasets[0].data = this.chart.config._config.data.datasets[0].data.slice(1).concat(p);
             this.chart.update();
             await idle(this.ms);
         }
 
         let last = dataset[dataset.length-1];
-        let keys = Object.keys(last);
-        let value = last[keys[0]];
-        let increment = last[keys[2]];
-        let next = value + increment;
+        let value = last['result'];
+        let direction = last['direction'];
+        let next = last[last['variables'][0]] + direction;
 
-        return next;
+        let result = {
+            "next": next,
+            "sign": direction
+        }
+
+        return result;
     }
 
     clear() {
         this.chart.destroy();
+    }
+
+    createRequestMessage(next = 0, sign = 1){
+        switch (this.id){
+            case 1:
+                return { 'layout': this.id, 'params': { "y": "f(x)", "variables": ['x'], "x": next, "sign": sign } };
+            case 2:
+                return { 'layout': this.id, 'params': { "y": "f(n, k)", "variables": ['k'], "n": 10, "k": next, "sign": sign } }; // definir n (analizar crecimiento)
+            case 3:
+                return { 'layout': this.id, 'params': { "y": "f(x)", "x": next } };
+            default:
+                return { 'layout': this.id, 'params': { "y": "f(x)", "x": next } };
+        }
     }
 
 }

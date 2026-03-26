@@ -58,3 +58,15 @@ body {
     opacity: 0.2; 
     cursor: not-allowed; /* cerca */
 }
+
+.body-display {
+    display: flex;
+    flex-direction: column;
+    gap: 4px
+}
+
+.wizard-soperpower-7 {
+    padding: 10px;
+    border: 1px solid #a0a;
+    border-radius: 16px;
+}
