@@ -12,7 +12,8 @@ body {
 
 .wizard-soperpower-9 {
     display: grid;
-    grid-template-rows: 2;
+    grid-template-rows: 12% 88%;
+    height: 44.00vh;
 }
 
 .graph-row-1 {
@@ -23,6 +24,9 @@ body {
 
 .graph-row-2 {
     grid-row: 2;
+    display: grid;
+    grid-template-columns: 48% 52%; /*\*/
+    grid-template-rows: 100%;
 }
 
 .graph-col-0 {
@@ -67,6 +71,61 @@ body {
 
 .wizard-soperpower-7 {
     padding: 10px;
-    border: 1px solid #a0a;
+    border: 2px solid #a0a;
     border-radius: 16px;
+}
+
+.graph-row-col-1 {
+    border: 2px solid gray;
+    border-radius: 5.1px;
+    margin: 1%;
+}
+
+.graph-row-col-2 {
+    border: 2px solid gray;
+    border-radius: 5.3px;
+    margin: 1%;
+}
+
+.canva-chart {
+    width: 100%;
+}
+
+.nc-container {
+    display: grid;
+    grid-template-rows: 8% 92%;
+    width: 100%;
+    height: 100%;
+}
+
+.nc-toolbar {
+    grid-row: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.nc-toolbar-control {
+    margin: 2px;
+}
+
+.mc-container {
+    grid-row: 2;
+}
+
+.mc-editing {
+    border: 2px solid green;
+}
+
+.mc-bash {
+    border: 2px solid white;
+}
+
+.python-code {
+    background-color: #1e1e1e;
+    color: #dcdcdc;
+    font-family: "Courier New", monospace;
+    padding: 15px;
+    border-radius: 8px;
+    white-space: pre; /* respeta saltos de línea */
+    overflow-x: auto;
 }

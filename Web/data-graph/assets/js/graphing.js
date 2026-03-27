@@ -1,5 +1,6 @@
 import { LinealChart } from './charts/lineal-chart.js';
 import { getGraphTemplate } from './environment-module.js';
+import { Toolbar } from './toolbar/toolbar.js';
 
 export class Graphing extends EventTarget {
     constructor(id = null) {
@@ -12,7 +13,8 @@ export class Graphing extends EventTarget {
         this.chart = undefined;
         
         this.charts = [];
-
+        this.tootbar = new Toolbar();
+  
     }
 
     init(type = null) {
@@ -58,11 +60,23 @@ export class Graphing extends EventTarget {
         this.clearCtrl.onclick = (event) => {
             this.clear();
         }
+
+        this.scriptCtrl = document.querySelector(`[data-chart="${this.id}"] #nc-toolbar-control-script`);
+
+        this.scriptCtrl.onclick = (event) => {
+            this.toolbarFunction('script');
+        }
+
+        this.bashViewerCtrl = document.querySelector(`[data-chart="${this.id}"] #nc-toolbar-control-bash-viewer`);
+
+        this.bashViewerCtrl.onclick = (event) => {
+            this.toolbarFunction('bash-viewer');
+        }
     }
 
     async connect() {
-        this.coordinateById(1);
- 
+        await this.tootbar.init();
+
         const source = document.querySelector(`[data-chart="${this.id}"] #data-socket-url`);
         const socketUrli = source.value;
         
@@ -79,12 +93,13 @@ export class Graphing extends EventTarget {
 
         await this.chart.init();
         
-        this.chart.connect();
+        await this.chart.connect();
 
         this.chart.addEventListener('in-event', (event) => {
-            let chartLabel = document.querySelector(`[data-chart="${this.id}"] .graph-col-1`);
-            chartLabel.innerHTML = `Script: ${event.target.in.id} - File: ${event.target.in.file}`;
+            this.coordinateById(1);
         });
+
+        
 
         //this.dispatchEvent(evento);
 
@@ -129,20 +144,45 @@ export class Graphing extends EventTarget {
                 this.connectCtrl.classList.add('control_disabled');
                 this.desconnectCtrl.classList.remove('control_disabled');
                 this.clearCtrl.classList.add('control_disabled');
+                this.scriptCtrl.classList.remove('control_disabled');
+                this.bashViewerCtrl.classList.remove('control_disabled');
+                this.toolbarFunction('script');
                 break;
             case 2:
                 this.connectCtrl.classList.remove('control_disabled');
                 this.desconnectCtrl.classList.add('control_disabled');
                 this.clearCtrl.classList.remove('control_disabled');
+                this.scriptCtrl.classList.add('control_disabled');
+                this.bashViewerCtrl.classList.add('control_disabled');
                 break;
             case 3:
                 this.connectCtrl.classList.remove('control_disabled');
                 this.desconnectCtrl.classList.add('control_disabled');
                 this.clearCtrl.classList.add('control_disabled');
+                this.scriptCtrl.classList.add('control_disabled');
+                this.bashViewerCtrl.classList.add('control_disabled');
+                this.toolbarFunction('clear');
                 break;
             default:
 
                 break;
+        }
+    }
+
+    toolbarFunction(fc) {
+        switch (fc) {
+            case 'script':
+                this.tootbar.fc_script();
+                break;
+            case 'bash-viewer':
+                this.tootbar.fc_bash_viewer();
+                break;
+            case 'clear':
+                this.tootbar.fc_clear();
+                break;
+            
+            default:
+                
         }
     }
 

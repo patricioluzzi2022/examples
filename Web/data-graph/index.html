@@ -8,6 +8,7 @@
     <title>data-graph</title>
     
     <link rel="stylesheet" href="assets/css/main-style.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
 
 </head>
 <body class="body-display">
@@ -38,14 +39,36 @@
             </div>
 
             <div class="graph-col-6">
-                <button id="add-new-graph-control">Add new Graph</button>
+                <button id="add-new-graph-control">Add new graph</button>
             </div>
             
         </div>
 
         <div class="graph-row-2">
-            <canvas id="chart-1" width="720" height="440" data-chart="1"></canvas>
+            <div class="graph-row-col-1">
+                <canvas id="chart-1" class="canva-chart" data-chart="1"></canvas>
+            </div>
+
+            <div class="graph-row-col-2">
+                <div class="nc-container">
+                    <div class="nc-toolbar">
+                        <button id="nc-toolbar-control-script" class="nc-toolbar-control control_disabled">Script</button>
+                        <button id="nc-toolbar-control-bash-viewer" class="nc-toolbar-control control_disabled">Bash Viewer</button>
+                    </div>
+
+                    <div class="mc-container mc-bash">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            
         </div>
+    </div>
+
+    <div class="wizard-footer-105">
+        By Norbert Storm Thomson & Alex Darias - Wizard Inside Reference
     </div>
     
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -53,6 +76,8 @@
     <script src="https://cdn.socket.io/4.8.3/socket.io.min.js"></script>
 
     <script type="module" src="assets/js/main-module.js"></script>
+
+    <script type="module" src="assets/js/toolbar/toolbar.js"></script>
 
 </body>
 </html>

@@ -1,7 +1,7 @@
 import { environment } from '../environment-module.js';
  
 export class LinealChart extends EventTarget {
-    constructor(id, source, ms = undefined){
+    constructor(id, source, ms = undefined) {
         super();
 
         this.id = id;
@@ -46,8 +46,15 @@ export class LinealChart extends EventTarget {
 
         this.socket.on(environment.response_data_event, async (result) => {
             this.in = result.dataset[0].script;
-            const inEvent = new CustomEvent('in-event', { message: { id: result.dataset[0].script.id, file: result.dataset[0].script.file } } );
-            this.dispatchEvent(inEvent);
+
+            let chartLabel = document.querySelector(`[data-chart="${this.id}"] .graph-col-1`);
+
+            if(chartLabel.innerHTML.trim() == ''){
+                chartLabel.innerHTML = `Script: ${result.dataset[0].script.id} - File: ${result.dataset[0].script.file}`;
+
+                const inEvent = new CustomEvent('in-event', { message: 'script running...' } );
+                this.dispatchEvent(inEvent);
+            }
 
             this.chart = await this.drawChart();
 
@@ -57,7 +64,7 @@ export class LinealChart extends EventTarget {
         });
     }
 
-    connect(){
+    async connect() {
         this.socket.connect();
         this.socket.emit(environment.connection_request_event, this.id);
     }
@@ -99,7 +106,8 @@ export class LinealChart extends EventTarget {
             type: this.layout.type || 'line',
             data: data,
             options: {
-                responsive: false,
+                responsive: true,
+                maintainAspectRatio: false,
                 plugins: {
                     title: {
                         display: true,
@@ -148,7 +156,7 @@ export class LinealChart extends EventTarget {
         this.chart.destroy();
     }
 
-    createRequestMessage(next = 0, sign = 1){
+    createRequestMessage(next = 0, sign = 1) {
         switch (this.id){
             case 1:
                 return { 'layout': this.id, 'params': { "y": "f(x)", "variables": ['x'], "x": next, "sign": sign } };

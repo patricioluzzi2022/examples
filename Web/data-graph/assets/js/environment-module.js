@@ -6,7 +6,10 @@ export const environment = {
     "response_layout_event": "response_layout_event",
 
     "request_data_event"  : "request_data_event",
-    "response_data_event": "response_data_event"
+    "response_data_event": "response_data_event",
+
+    "file_static_url": "http://localhost/scripts"
+
 }
 
 export function getGraphTemplate(layout) {

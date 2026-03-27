@@ -7,7 +7,10 @@ window.onload = function() {
     graphing.addEventListener('new-graph-event', (event) => {
         let layout = this.prompt('Script #:');
 
+        if(!layout){ return; }
+
         let graphing = new Graphing(parseInt(layout));
         graphing.init('lineal');
+
     });
 };
